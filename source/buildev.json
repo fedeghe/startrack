@@ -1,0 +1,9 @@
+{
+    "EXE": [
+        "rm -rf dist",
+        "mkdir -p dist/pixels"
+    ],
+    "source/*.js": "dist",
+    "source/pixels/*.js": "dist/pixels",
+    "source/index.html": ". -plugins=malta-dev-srv"
+}

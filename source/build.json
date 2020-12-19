@@ -1,0 +1,8 @@
+{
+  "EXE": [
+      "rm -rf dist",
+      "mkdir -p dist/pixels"
+  ],
+  "#source/*.js": "dist -plugins=malta-js-uglify",
+  "#source/pixels/*.js": "dist/pixels -plugins=malta-js-uglify"
+}
